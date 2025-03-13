@@ -1,6 +1,51 @@
-<aside class="bg-gray-900 text-white w-16 hover:w-64 transition-all h-screen fixed top-0 left-0 flex flex-col items-center p-2">
-    
-    <nav class="mt-4 space-y-2 w-full">
-         <!-- nav icons -->
-    </nav>
-</aside>
+<div id="sidebar" class="w-16 bg-blue-900 h-screen text-white flex flex-col justify-between transition-all duration-300">
+    <!-- Sidebar Top: Toggle Button -->
+    <div>
+        <button onclick="toggleSidebar()" class="p-4 focus:outline-none">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Sidebar Icons -->
+        <nav class="mt-4 flex flex-col items-center space-y-6">
+            <a href="#" class="flex items-center p-2 hover:bg-blue-700 rounded-md w-full justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7m-2 2l2 2m-2-2V6m0 12h-4m-4 0H7m8 0a4 4 0 01-8 0"></path>
+                </svg>
+                <span class="sidebar-text hidden ml-4">Dashboard</span>
+            </a>
+
+            <a href="#" class="flex items-center p-2 hover:bg-blue-700 rounded-md w-full justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 16l-4-4m0 0l4-4m-4 4h12"></path>
+                </svg>
+                <span class="sidebar-text hidden ml-4">Reports</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Sidebar Bottom: Help & Settings -->
+    <div class="mb-4 flex flex-col items-center space-y-6">
+        <a href="#" class="flex items-center p-2 hover:bg-blue-700 rounded-md w-full justify-center">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75a2.25 2.25 0 113.75 1.5c-.75.75-1.5 1.5-1.5 3m.01 3h.008"></path>
+            </svg>
+            <span class="sidebar-text hidden ml-4">Help</span>
+        </a>
+
+        <a href="#" class="flex items-center p-2 hover:bg-blue-700 rounded-md w-full justify-center">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v3m6.364 1.636l-2.121 2.121m-8.486 0L5.636 7.636M3 12h3m12 0h3m-2.636 5.636l-2.121-2.121m-8.486 0l-2.121 2.121M12 18v3"></path>
+            </svg>
+            <span class="sidebar-text hidden ml-4">Settings</span>
+        </a>
+    </div>
+</div>
+
+<script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("w-64");
+        document.querySelectorAll(".sidebar-text").forEach(el => el.classList.toggle("hidden"));
+    }
+</script>
