@@ -1,0 +1,9 @@
+<header class="bg-white shadow-md p-4 flex justify-between items-center fixed w-full top-0 left-16">
+    <!-- Left: Project Name -->
+    <h1 class="text-lg font-bold">Dashboard</h1>
+
+    <!-- Right: Search, Notifications, Profile -->
+    <div class="flex items-center space-x-4">
+     Search, Notifications, Profile
+    </div>
+</header>

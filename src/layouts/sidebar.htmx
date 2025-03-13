@@ -1,0 +1,6 @@
+<aside class="bg-gray-900 text-white w-16 hover:w-64 transition-all h-screen fixed top-0 left-0 flex flex-col items-center p-2">
+    
+    <nav class="mt-4 space-y-2 w-full">
+         <!-- nav icons -->
+    </nav>
+</aside>
