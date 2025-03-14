@@ -1,9 +1,18 @@
-<header class="flex justify-between items-center px-6 py-4">
+<style>
+.custom-header{
+    z-index: 999990;
+    margin-left: 64px;}
+    .right-side-pad{margin-right: 52px;}
+    .heading{margin-left: -8px;}
+</style>
+
+
+<header class="flex justify-between custom-header fixed top-0 bg-gray-100 left-0 right-0 w-full items-center px-6 py-4">
     <!-- Left Section: Module Name -->
-    <h1 class="text-lg ml-14 font-semibold text-blue-900">Dashboard</h1>
+    <h1 class="text-lg heading font-semibold text-blue-900">Dashboard</h1>
 
     <!-- Right Section: Search, Notification, Profile Dropdown -->
-    <div class="flex items-center space-x-11">
+    <div class="flex items-center space-x-11 right-side-pad">
         <!-- Search Icon -->
        <div class='flex gap-5'>
         <button class="text-blue-900 focus:outline-none">
