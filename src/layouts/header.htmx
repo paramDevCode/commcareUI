@@ -14,7 +14,7 @@
 
         <!-- Notification Icon -->
         <button class="text-blue-900 focus:outline-none relative">
-    <div class="absolute top-0 left-[13px] transform -translate-x-1/2 -translate-y-full">
+    <div class="absolute top-1 left-[12px] transform -translate-x-1/2 -translate-y-full">
         <div class="w-1 h-1 bg-red-500 rounded-full"></div>
     </div>
    <svg xmlns="http://www.w3.org/2000/svg" class='h-4 w-4 fill-[#16006D]' viewBox="0 0 448 512">
