@@ -1,13 +1,77 @@
-<div class="p-6 flex flex-col lg:flex-row gap-6">
-    <!-- Left Column -->
-    <div class="bg-white p-6 shadow rounded-lg flex-1 lg:max-w-[888px] w-full">
-        <h2 class="text-lg font-bold mb-4">Left Column</h2>
-        <p>This is the left column content.</p>
+<div class="p-6 lg:px-[20px] flex flex-col lg:flex-row gap-[20px]">
+    <!-- Left Column (Wider) -->
+    <div class="lg:flex-[70%]">
+        <h2 class="text-lg font-semibold text-indigo-900 mb-3">Programs</h2>
+        <div class="bg-white shadow-md p-6 rounded-lg lg relative">
+    <div class="absolute top-0 left-4 h-[4px] w-[30px] bg-orange-400 rounded transition-all duration-500 hover:w-[100px]"></div>
+            <div class="flex justify-between items-center text-gray-500 text-sm mb-3">
+                <div class="flex items-center gap-3">
+                    <span>06 May, 2024</span>
+                    <span class="flex items-center">
+                        <span class="text-orange-400 text-lg mx-1">•</span>
+                        Program Manager Organization Name
+                    </span>
+                </div>
+                <span class="bg-orange-400 text-white text-sm px-3 py-1 rounded-full">
+                    Invited
+                </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-indigo-900">Program Name</h3>
+            <p class="text-gray-500 text-sm mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
+            </p>
+
+            <!-- Details & Apply Button -->
+            <div class="flex items-center justify-between w-full mt-4 text-gray-500 text-sm">
+    <!-- Left Side: Delivery Type & Dates -->
+    <div class="flex items-center gap-8">
+        <!-- Delivery Type -->
+        <div>
+            <p class="text-gray-400">Delivery Type</p>
+            <p class="font-bold text-blue-900">Name of the Delivery Type</p>
+        </div>
+
+        <!-- Vertical Divider -->
+        <div class="w-px h-10 bg-gray-300"></div>
+
+        <!-- Start Date -->
+        <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <div>
+                <p class="text-gray-400">Start Date</p>
+                <p class="font-bold text-blue-900">12-Jul-2024</p>
+            </div>
+        </div>
+
+        <!-- End Date -->
+        <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <div>
+                <p class="text-gray-400">End Date</p>
+                <p class="font-bold text-blue-900">21-Dec-2024</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Side: Apply Button -->
+    <button class="bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
+        Apply
+    </button>
+</div>
+
+        </div>
     </div>
 
     <!-- Right Column -->
-    <div class="bg-white p-6 shadow rounded-lg flex-1 lg:max-w-[440px] w-full">
-        <h2 class="text-lg font-bold mb-4">Right Column</h2>
-        <p>This is the right column content.</p>
+    <div class="lg:w-[30%]">
+        <h2 class="text-lg font-semibold text-indigo-900 mb-3">Recent Activities</h2>
+        <div class="bg-white p-6 shadow rounded-lg">
+           
+        </div>
     </div>
 </div>
