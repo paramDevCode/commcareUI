@@ -1,7 +1,11 @@
 <div id="sidebar" class="w-16 bg-blue-900 z-[9999] h-screen text-white h-screen flex flex-col top-0 left-0 fixed  justify-between transition-all duration-300">
     <!-- Sidebar Top: Toggle Button -->
     <div>
-        <button onclick="toggleSidebar()" class="p-5 focus:outline-none">
+
+    <div  class="pl-4 mt-5">
+            <img src="./public/Assets/logo.svg"   class="w-8 h-8 rounded-full   border-gray-300" />
+        </div>
+        <button onclick="toggleSidebar()" class="p-6 focus:outline-none">
            <svg xmlns="http://www.w3.org/2000/svg" class='h-4 text-white' viewBox="0 0 448 512">
   <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" fill="currentColor"/>
 </svg>
