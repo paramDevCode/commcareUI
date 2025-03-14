@@ -7,8 +7,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/htmx.org"></script>
     <script src="src/scripts/main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'work-sans': ['Work Sans', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
 </head>
-<body class="bg-gray-100 flex overflow-x-hidden">
+<body class="bg-gray-100 flex overflow-x-hidden font-work-sans">
 
     <!-- Sidebar -->
     <div hx-get="src/layouts/sidebar.htmx" hx-trigger="load"></div>
