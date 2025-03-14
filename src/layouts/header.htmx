@@ -1,6 +1,6 @@
 <header class="flex justify-between items-center px-6 py-4">
     <!-- Left Section: Module Name -->
-    <h1 class="text-lg font-semibold text-blue-900">Dashboard</h1>
+    <h1 class="text-lg ml-14 font-semibold text-blue-900">Dashboard</h1>
 
     <!-- Right Section: Search, Notification, Profile Dropdown -->
     <div class="flex items-center space-x-6">
