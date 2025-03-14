@@ -79,8 +79,8 @@
                                                     Program Manager Organization Name
                                                 </span>
                                             </div>
-                                            <span class="bg-orange-400 text-white text-sm px-3 py-1 rounded-full">
-                                                Invited
+                                           <span class=" bg-[#16006D] text-white text-sm px-3 py-1 rounded-full">
+                                                applied
                                             </span>
                                         </div>
                             
@@ -126,7 +126,7 @@
                                 </div>
                             
                                 <!-- Right Side: Apply Button -->
-                                <button class="bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
+                                <button class="bg-[#3843D0] text-white px-8 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
                                     Apply
                                 </button>
                             </div>
@@ -143,8 +143,8 @@
                                                                 Program Manager Organization Name
                                                             </span>
                                                         </div>
-                                                        <span class="bg-orange-400 text-white text-sm px-3 py-1 rounded-full">
-                                                            Invited
+                                                     <span class=" bg-[#16A34A] text-white text-sm px-3 py-1 rounded-full">
+                                                            accepted
                                                         </span>
                                                     </div>
                                         
@@ -190,8 +190,8 @@
                                             </div>
                                         
                                             <!-- Right Side: Apply Button -->
-                                            <button class="bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
-                                                Apply
+                                           <button class="hover:bg-[#3843D0] hover:text-white text-[#16006D] px-8 py-2 rounded-lg  border transition">
+                                                view Opportunity
                                             </button>
                                         </div>
                                         
