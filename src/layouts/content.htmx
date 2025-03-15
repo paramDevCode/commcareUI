@@ -1,3 +1,17 @@
+  <style type="text/tailwindcss">
+        @layer utilities {
+            .hide-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+
+            .hide-scrollbar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+        }
+    </style>
+
+
 <div class="max-w-[1200px] mx-auto px-5 lg:px-0 flex mt-[60px] flex-col lg:flex-row gap-[20px]">
         <!-- Left Column (Wider) -->
         <div class="lg:flex-[70%]" >
