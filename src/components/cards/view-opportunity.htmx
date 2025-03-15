@@ -1,0 +1,51 @@
+<div class="bg-white mt-2 shadow  rounded-2xl p-6 grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <!-- Left Column (Wider) -->
+                        <div class="md:col-span-3 w-full">
+                            <p class="text-sm text-gray-500 mb-1">06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
+                            <h3 class="text-xl font-medium text-[#16006D] pt-2">Opportunity Name</h3>
+
+                            <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+            
+                        <!-- Right Column (Narrower) -->
+                        <div class="md:col-span-1 w-full flex flex-col items-end">
+                            <div class="flex items-start space-x-4 bg-gray-100 p-2 rounded-lg">
+                                <div class="mr-4">
+                                    <p class="text-sm text-gray-500">Deliveries</p>
+                                    <p class="text-xl font-bold">100/150</p>
+                                </div>
+                                <div class="flex flex-col space-y-1 text-sm text-gray-600">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="flex items-center"><div class="w-3 h-3 bg-green-500 rounded-full mr-1"></div> Approved (70)</div>
+                                        <div class="flex items-center"><div class="w-3 h-3 bg-red-500 rounded-full mr-1"></div> Flagged (15)</div>
+                                    </div>
+                                    <div class="flex items-center"><div class="w-3 h-3 bg-gray-500 rounded-full mr-1"></div> Rejected (15)</div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Last Row: Start Date, End Date, View Button -->
+                        <div class="col-span-4 flex justify-between items-center">
+                            <!-- Start and End Dates -->
+                            <div class="flex items-center space-x-6">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <svg class="w-5 h-5 text-gray-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    <div>
+                                        <span class="text-gray-400 text-xs">Start Date</span>
+                                        <div class="text-indigo-800 text-sm font-bold">12-Jul-2024</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <span class="text-orange-500 mx-2">→</span>
+                                    <div>
+                                        <span class="text-gray-400 text-xs">End Date</span>
+                                        <div class="text-indigo-800 text-sm font-bold">21-Dec-2024</div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- View Button -->
+                            <button class="px-4 py-2 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-100 flex items-center">View <span class="ml-1">→</span></button>
+                        </div>
+            
+                    </div>
