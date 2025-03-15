@@ -53,9 +53,8 @@
                      </div>
                   </div>
                   <!-- Right Side: Apply Button -->
-                  <button class="bg-[#3843D0] text-white px-8 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
-                  Apply
-                  </button>
+                 <div hx-get="src/components/buttons/btn-blue.htmx" hx-trigger="load"></div>
+
                </div>
             </div>
             <div class="bg-white shadow-md p-6 rounded-lg lg relative">
@@ -112,9 +111,7 @@
                      </div>
                   </div>
                   <!-- Right Side: Apply Button -->
-                  <button class="bg-[#3843D0] text-white px-8 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
-                  Apply
-                  </button>
+                  <div hx-get="src/components/buttons/btn-blue.htmx" hx-trigger="load"></div>
                </div>
             </div>
             <div class="bg-white shadow-md p-6 rounded-lg lg relative">
@@ -171,9 +168,7 @@
                      </div>
                   </div>
                   <!-- Right Side: Apply Button -->
-                  <button class="hover:bg-[#3843D0] hover:text-white border text-[#16006D] px-8 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
-                  View Opportunities
-                  </button>
+                 <div hx-get="src/components/buttons/btn-white.htmx" hx-trigger="load"></div>
                </div>
             </div>
          </div>
