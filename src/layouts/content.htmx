@@ -1,4 +1,4 @@
-<div class="p-6 lg:px-[10px] flex mt-[60px] ml-[68px] flex-col lg:flex-row gap-[20px]">
+<div class="max-w-[1200px] mx-auto px-5 lg:px-0 flex mt-[60px] flex-col lg:flex-row gap-[20px]">
    <!-- Left Column (Wider) -->
    <div class="lg:flex-[70%]" >
       <h2 class="mb-4 text-[#16006D] font-[500] text-sm">Programs</h2>
