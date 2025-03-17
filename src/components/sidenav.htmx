@@ -30,7 +30,7 @@
                 <span class="ml-4 sidebar-text hidden">Programs</span>
             </a>
              <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Settings</div>
+            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Programs</div>
         </div>
         <div class="group relative">
             <a href="#" class="flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg w-full">
@@ -38,7 +38,7 @@
                 <span class="ml-4 sidebar-text hidden">Opportunities</span>
             </a>
              <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Sidebar</div>
+            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Opportunities</div>
         </div>
         <div class="group relative">
             <a href="#" class="flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg w-full">
