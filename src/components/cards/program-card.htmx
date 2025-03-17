@@ -1,11 +1,11 @@
 <div class="bg-white shadow-md p-6 rounded-lg lg relative">
-    <div class="absolute -top-1 left-4 h-[8px] w-[26px] bg-orange-400 rounded z-[50]"></div>
+    <div class="absolute -top-1 left-4 h-2 w-7 bg-orange-400 rounded z-50"></div>
     <div class="flex justify-between items-center text-gray-500 text-sm mb-3">
         <div class="flex items-center gap-1">
             <span class='text-blue-light text-xs'>06 May, 2024</span>
             <span class="flex items-center text-xs text-blue-light">
                 <span class="text-marigold text-xl mx-1">•</span>
-                Program Manager Organization Name
+                Program Manager Organization Names
             </span>
         </div>
         <span class="bg-marigold text-deep-purple text-sm px-3 py-1 rounded-full">Invited</span>

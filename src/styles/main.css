@@ -9,6 +9,7 @@
     --black-grey:#0F172A;
     --blue-light:#94A3B8;
     --sunset-light:#FC5F3633;
+    --border-light: #E2E8F0;
 }
 
 /* CSS */
@@ -20,6 +21,12 @@
 .bg-mango { background-color: var(--mango); }
 .bg-marigold { background-color: var(--marigold); }
 .bg-sunset-light { background-color: var(--sunset-light); }
+.hover\:bg-sunset-light:hover {
+    background-color: var(--sunset-light);
+}
+.hover\:bg-indigo:hover {
+    background-color: var(--indigo);
+}
 
 
 .text-deep-purple { color: var(--deep-purple); }
@@ -31,6 +38,9 @@
 .text-marigold { color: var(--marigold); }
 .text-black-grey { color: var(--black-grey); }
 .text-blue-light { color: var(--blue-light); }
+.text-sunset-light { color: var(--sunset-light); }
+.border-light { border-color: var(--border-light); }
+
 #sidebar.expanded .tooltip {
     display: none !important;
 }
