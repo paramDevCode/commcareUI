@@ -31,3 +31,18 @@
 .text-marigold { color: var(--marigold); }
 .text-black-grey { color: var(--black-grey); }
 .text-blue-light { color: var(--blue-light); }
+#sidebar.expanded .tooltip {
+    display: none !important;
+}
+ .tooltip {
+    display: none;
+}
+ #sidebar:not(.expanded) .group:hover .tooltip {
+    display: block;
+}
+
+.custom-header{
+    z-index: 99;
+    margin-left: 64px;}
+    .right-side-pad{margin-right: 52px;}
+    .heading{margin-left: -8px;}

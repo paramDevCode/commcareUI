@@ -1,13 +1,4 @@
-<style>
-.custom-header{
-    z-index: 999990;
-    margin-left: 64px;}
-    .right-side-pad{margin-right: 52px;}
-    .heading{margin-left: -8px;}
-</style>
-
-
-<header class="flex justify-between custom-header fixed top-0 bg-gray-100 left-0 right-0 w-full items-center px-4 py-4">
+ <header class="flex justify-between custom-header fixed top-0 bg-gray-100 left-0 right-0 w-full items-center px-4 py-4">
     <!-- Left Section: Module Name -->
     <h1 class="text-xl Extra large mb-4 text-deep-purple font-normal">Dashboard</h1>
 
