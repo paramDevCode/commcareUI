@@ -12,7 +12,7 @@
     </div>
     <h3 class="text-xl font-medium text-deep-purple">Program Name</h3>
     <p class="text-blue-light text-xs mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
+        Lorem ipsums dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
     </p>
     <div class="flex items-center justify-between w-full mt-4 text-gray-500 text-sm">
         <div class="flex items-center gap-4">

@@ -1,34 +1,34 @@
 <div class="bg-white mt-2 shadow rounded-2xl p-4 grid grid-cols-1 md:grid-cols-[3fr,1fr] gap-4 items-start">
     <!-- Left Column -->
     <div class="break-words max-w-full overflow-hidden">
-        <p class="text-sm text-gray-500 mb-1">06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
+<p class="flex items-center text-xs text-blue-light "> 06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
         <h3 class="text-xl font-medium text-deep-purple pt-2 truncate">Opportunity Name</h3>
-        <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="text-blue-light text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 
     <!-- Right Column -->
     <div class="flex flex-col items-end w-full">
         <div class="flex items-start space-x-4 bg-gray-100 p-3 rounded-lg w-full">
             <div class="mr-4">
-                <p class="text-sm text-gray-500 font-medium text-deep-purple">Deliveries</p>
-                <p class="text-xl text-gray-500  font-medium text-deep-purple">100/150</p>
+                <p class="text-blue-light text-sm">Deliveries</p>
+                <p class="text-xl text-gray-500  font-medium ">100/150</p>
             </div>
             <div class="flex flex-col space-y-1 text-sm text-gray-600">
                 <div class="flex items-center space-x-4">
                     <div class="flex items-center space-x-1">
-                        <div class="w-3 h-4 bg-green-500 rounded-full"></div>
-                        <span>Approved</span>
+                        <div class="w-2 h-4 bg-green-500 rounded-full"></div>
+                        <span class='text-blue-light text-sm'>Approved</span>
                         <span>(70)</span>
                     </div>
                     <div class="flex items-center space-x-1">
-                        <div class="w-3 h-4 bg-red-500 rounded-full"></div>
-                        <span>Flagged</span>
+                        <div class="w-2 h-4 bg-red-500 rounded-full"></div>
+                        <span class='text-blue-light text-sm'>Flagged</span>
                         <span>(15)</span>
                     </div>
                 </div>
-                <div class="flex items-center space-x-1">
-                    <div class="w-3 h-4 bg-gray-500 rounded-full"></div>
-                    <span>Rejected</span>
+                <div class="flex items-center space-x-2">
+                    <div class="w-2 h-4 bg-gray-500 rounded-full"></div>
+                    <span class='text-blue-light text-sm'>Rejected</span>
                     <span>(15)</span>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <span class="text-orange-500 mx-2">→</span>
                 <div>
                     <span class="text-gray-400 text-xs">End Date</span>
-                    <div class="text-indigo-800 text-sm font-bold">21-Dec-2024</div>
+                    <p class="font-medium text-deep-purple text-sm">12-Jul-2024</p>
                 </div>
             </div>
         </div>

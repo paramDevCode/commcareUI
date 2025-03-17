@@ -4,7 +4,7 @@
                             <p class="text-sm text-gray-500 mb-1">06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
                             <h3 class="text-xl font-medium text-deep-purple pt-2">Opportunity Name</h3>
 
-                            <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="text-blue-light text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
             
                         <!-- Right Column (Narrower) -->
@@ -39,7 +39,7 @@
                                     <span class="text-orange-500 mx-2">→</span>
                                     <div>
                                         <span class="text-gray-400 text-xs">End Date</span>
-                                        <div class="text-indigo-800 text-sm font-bold">21-Dec-2024</div>
+                                       <p class="font-medium text-deep-purple text-sm">12-Jul-2024</p>
                                     </div>
                                 </div>
                             </div>
