@@ -1,6 +1,6 @@
 
 
-<div id="sidebar" class="w-16 bg-neutral-dark z-[9999] h-screen text-white h-screen flex flex-col top-0 left-0 fixed justify-between transition-all duration-300">
+<div id="sidebar" class="w-16 bg-deep-purple z-[9999] h-screen text-white h-screen flex flex-col top-0 left-0 fixed justify-between transition-all duration-300">
     <!-- Sidebar Top: Toggle Button -->
     <div>
 
@@ -18,74 +18,74 @@
                 <a href="#" class="flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg justify-center">
                    <i class="fa-light fa-table-cells-large"></i>
                 </a>
-                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Dashboard</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-yellow text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap text-deep-purple">Dashboard</div>
             </div>
             <div class="group relative">
-             <a href="#" class="group flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg  justify-center relative">
+             <a href="#" class="group flex items-center p-3 hover:bg-sunset-light rounded-lg  justify-center relative">
               <i class="fa-light fa-table-columns"></i>
-                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
             </a> 
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Programs</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white  text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap text-deep-purple">Programs</div>
             </div> 
              <div class="group relative">
-                <a href="#" class="flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg justify-center">
+                <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg justify-center">
                    <i class="fa-light fa-sidebar"></i>
                 </a>
-                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Opportunity</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Opportunity</div>
             </div>
              <div class="group relative">
-            <a href="#" class="group flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg  justify-center relative">
+            <a href="#" class="group flex items-center p-3 hover:bg-sunset-light rounded-lg  justify-center relative">
                <i class="fa-light fa-chart-pie"></i>
-                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Chart</span>
             </a>
-            <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+            <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Analytics</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Analytics</div>
             </div> 
             <div class="group relative">
-             <a href="#" class="group flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg  justify-center relative">
+             <a href="#" class="group flex items-center p-3 hover:bg-sunset-light rounded-lg  justify-center relative">
                  <i class="fa-light fa-buildings"></i>
-                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Chart</span>
             </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3  bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">My Organization</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3  bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">My Organization</div>
             </div>
         </nav>
     </div>
     <!-- Sidebar Bottom: Help & Settings -->
     <div class="mb-4 flex flex-col items-center space-y-1">
       <div class="group relative">
-        <a href="#" class="group flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg  justify-center relative">
+        <a href="#" class="group flex items-center p-3 hover:bg-sunset-light rounded-lg  justify-center relative">
                  <svg xmlns="http://www.w3.org/2000/svg" class='h-4 w-4 text-white' viewBox="0 0 512 512">
                  <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm169.8-90.7c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" fill="currentColor"/>
                  </svg>
-                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Help</span>
             </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Dashboard</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Dashboard</div>
             </div>
        <div class="group relative">
-       <a href="#" class="group flex items-center p-3 hover:bg-[#FC5F3633] rounded-lg  justify-center relative">
+       <a href="#" class="group flex items-center p-3 hover:bg-sunset-light rounded-lg  justify-center relative">
                 
                 <i class="fa-regular fa-gear"></i>
-                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+                 <div class="absolute top-1/4 right-0  h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Settings</span>
                  </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-[#FC5F36] rounded-lg hidden group-hover:block"></div>
+             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
                 <span class="sidebar-text hidden ml-4">Dashboard</span>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-neutral-dark text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Settings</div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Settings</div>
             </div>
     </div>
 </div>

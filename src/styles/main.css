@@ -1,0 +1,34 @@
+:root{
+    --deep-purple:#16006D;
+    --indigo:#3843D0;
+    --cornflower-blue:#5D70D2;
+    --sky:#8EA1FF;
+    --sunset:#E44434;
+    --mango:#FC5F36;
+    --marigold:#FEAF31;
+    --black-grey:#0F172A;
+    --blue-light:#94A3B8;
+    --sunset-light:#FC5F3633;
+}
+
+/* CSS */
+.bg-deep-purple { background-color: var(--deep-purple); }
+.bg-indigo { background-color: var(--indigo); }
+.bg-cornflower-blue { background-color: var(--cornflower-blue); }
+.bg-sky { background-color: var(--sky); }
+.bg-sunset { background-color: var(--sunset); }
+.bg-mango { background-color: var(--mango); }
+.bg-marigold { background-color: var(--marigold); }
+.bg-sunset-light { background-color: var(--sunset-light); }
+
+
+.text-deep-purple { color: var(--deep-purple); }
+.text-indigo { color: var(--indigo); }
+.text-cornflower-blue { color: var(--cornflower-blue); }
+.text-sky { color: var(--sky); }
+.text-sunset { color: var(--sunset); }
+.text-mango { color: var(--mango); }
+.text-marigold { color: var(--marigold); }
+.text-black-grey { color: var(--black-grey); }
+.text-blue-light { color: var(--blue-light); }
+
