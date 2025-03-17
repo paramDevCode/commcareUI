@@ -37,8 +37,8 @@
             <!-- Dropdown Trigger: Organization Names & Icon -->
             <button onclick="toggleDropdown(event)" class="flex items-center gap-2 focus:outline-none">
                 <div class="text-left">
-                    <p class="text-[13px] font-[500] text-blue-900 cursor-pointer">Organization Names</p>
-                    <p class="text-[10px] text-gray-500">Network Manager</p>
+                    <p class="text-sm font-medium text-[#16006D] cursor-pointer">Organization Names</p>
+                    <p class="text-xs font-normal text-[#94A3B8]">Network Manager</p>
                 </div>
 
                 <!-- Dropdown Toggle Icon -->
@@ -59,26 +59,26 @@
     <ul class="py-2">
         <div class="px-3">
             <li class="py-2 px-3 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-[14px] font-[400]">Meca Healthcare</p>
-                <p class="text-[13px] font-[300] text-[#94A3B8]">Program Manager</p>
+                <p class="text-[#16006D] text-sm font-normal">Meca Healthcare</p>
+                <p class="text-xs font-light text-[#94A3B8]">Program Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-[14px] font-[400]">Ecma Education</p>
-                <p class="text-[13px] font-[300] text-[#94A3B8]">Network Manager</p>
+                <p class="text-[#16006D] text-sm font-normal">Ecma Education</p>
+                <p class="text-xs font-light text-[#94A3B8]">Network Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-[14px] font-[400]">Cmea Kindheart</p>
-                <p class="text-[13px] font-[300] text-[#94A3B8]">Program Manager</p>
+                <p class="text-[#16006D] text-sm font-normal">Cmea Kindheart</p>
+                <p class="text-xs font-light text-[#94A3B8]">Program Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-[14px] font-[400]">Acme Venture</p>
-                <p class="text-[13px] font-[300] text-[#94A3B8]">Network Manager</p>
+                <p class="text-[#16006D] text-sm font-normal">Acme Venture</p>
+                <p class="text-xs font-light text-[#94A3B8]">Network Manager</p>
             </li>
         </div>
     </ul>

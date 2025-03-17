@@ -4,7 +4,7 @@
         <div class="flex items-center gap-1">
             <span class='text-[#94A3B8] text-xs'>06 May, 2024</span>
             <span class="flex items-center text-xs text-[#94A3B8]">
-                <span class="text-[#FEAF31] text-2xl mx-1">•</span>
+                <span class="text-[#FEAF31] text-xl mx-1">•</span>
                 Program Manager Organization Name
             </span>
         </div>
