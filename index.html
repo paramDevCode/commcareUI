@@ -27,13 +27,13 @@
 </head>
 
 <body class="bg-gray-100 flex justify-center overflow-x-hidden font-work-sans">
-    <div class="w-full lg:px-20 flex">
+    <div class="w-full lg:px-20 flex md:max-w-screen-2xl">
 
         <!-- Sidebar -->
         <div hx-get="src/components/sidenav.htmx" hx-trigger="load"></div>
 
         <!-- Main Content -->
-        <main class="flex-1 mt-8 md:max-w-screen-2xl">
+        <main class="flex-1 mt-8 ">
             <!-- Header -->
             <div hx-get="src/layouts/header.htmx" hx-trigger="load"></div>
 
