@@ -9,7 +9,7 @@
 
 <header class="flex justify-between custom-header fixed top-0 bg-gray-100 left-0 right-0 w-full items-center px-4 py-4">
     <!-- Left Section: Module Name -->
-    <h1 class="text-xl Extra large mb-4 text-[#16006D] font-normal">Dashboard</h1>
+    <h1 class="text-xl Extra large mb-4 text-neutral-dark font-normal">Dashboard</h1>
 
     <!-- Right Section: Search, Notification, Profile Dropdown -->
     <div class="flex items-center space-x-11 right-side-pad">
@@ -37,7 +37,7 @@
             <!-- Dropdown Trigger: Organization Names & Icon -->
             <button onclick="toggleDropdown(event)" class="flex items-center gap-2 focus:outline-none">
                 <div class="text-left">
-                    <p class="text-sm font-medium text-[#16006D] cursor-pointer">Organization Names</p>
+                    <p class="text-sm font-medium text-neutral-dark cursor-pointer">Organization Names</p>
                     <p class="text-xs font-normal text-[#94A3B8]">Network Manager</p>
                 </div>
 
@@ -59,25 +59,25 @@
     <ul class="py-2">
         <div class="px-3">
             <li class="py-2 px-3 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-sm font-normal">Meca Healthcare</p>
+                <p class="text-neutral-dark text-sm font-normal">Meca Healthcare</p>
                 <p class="text-xs font-light text-[#94A3B8]">Program Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-sm font-normal">Ecma Education</p>
+                <p class="text-neutral-dark text-sm font-normal">Ecma Education</p>
                 <p class="text-xs font-light text-[#94A3B8]">Network Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-sm font-normal">Cmea Kindheart</p>
+                <p class="text-neutral-dark text-sm font-normal">Cmea Kindheart</p>
                 <p class="text-xs font-light text-[#94A3B8]">Program Manager</p>
             </li>
         </div>
         <div class="px-4">
             <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-[#16006D] text-sm font-normal">Acme Venture</p>
+                <p class="text-neutral-dark text-sm font-normal">Acme Venture</p>
                 <p class="text-xs font-light text-[#94A3B8]">Network Manager</p>
             </li>
         </div>

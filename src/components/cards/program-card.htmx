@@ -8,9 +8,9 @@
                 Program Manager Organization Name
             </span>
         </div>
-        <span class="bg-[#FEAF31] text-[#16006D] text-sm px-3 py-1 rounded-full">Invited</span>
+        <span class="bg-[#FEAF31] text-neutral-dark text-sm px-3 py-1 rounded-full">Invited</span>
     </div>
-    <h3 class="text-xl font-medium text-[#16006D]">Program Name</h3>
+    <h3 class="text-xl font-medium text-neutral-dark">Program Name</h3>
     <p class="text-[#94A3B8] text-xs mt-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
     </p>
@@ -18,7 +18,7 @@
         <div class="flex items-center gap-4">
             <div>
                 <p class="text-[#94A3B8] text-xs">Delivery Type</p>
-                <p class="font-medium text-[#16006D] text-sm">Name of the Delivery Type</p>
+                <p class="font-medium text-neutral-dark text-sm">Name of the Delivery Type</p>
             </div>
             <div class="w-0.5 h-10 bg-gray-300"></div>
             <div class="flex items-center gap-4">
@@ -27,7 +27,7 @@
                 </svg>
                 <div>
                     <p class="text-[#94A3B8] text-xs">Start Date</p>
-                    <p class="font-medium text-[#16006D] text-sm">12-Jul-2024</p>
+                    <p class="font-medium text-neutral-dark text-sm">12-Jul-2024</p>
                 </div>
             </div>
             <div class="flex items-center gap-2">
@@ -36,7 +36,7 @@
                 </svg>
                 <div>
                     <p class="text-[#94A3B8] text-xs">End Date</p>
-                    <p class="font-medium text-[#16006D]">21-Dec-2024</p>
+                    <p class="font-medium text-neutral-dark">21-Dec-2024</p>
                 </div>
             </div>
         </div>
