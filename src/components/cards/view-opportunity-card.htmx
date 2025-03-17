@@ -2,7 +2,7 @@
     <!-- Left Column -->
     <div class="break-words max-w-full overflow-hidden">
         <p class="text-sm text-gray-500 mb-1">06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
-        <h3 class="text-xl font-medium text-[#16006D] pt-2 truncate">Opportunity Name</h3>
+        <h3 class="text-xl font-medium text-deep-purple pt-2 truncate">Opportunity Name</h3>
         <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 
@@ -10,8 +10,8 @@
     <div class="flex flex-col items-end w-full">
         <div class="flex items-start space-x-4 bg-gray-100 p-3 rounded-lg w-full">
             <div class="mr-4">
-                <p class="text-sm text-gray-500 font-medium text-[#16006D]">Deliveries</p>
-                <p class="text-xl text-gray-500  font-medium text-[#16006D]">100/150</p>
+                <p class="text-sm text-gray-500 font-medium text-deep-purple">Deliveries</p>
+                <p class="text-xl text-gray-500  font-medium text-deep-purple">100/150</p>
             </div>
             <div class="flex flex-col space-y-1 text-sm text-gray-600">
                 <div class="flex items-center space-x-4">

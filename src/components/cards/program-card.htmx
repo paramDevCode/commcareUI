@@ -2,23 +2,23 @@
     <div class="absolute -top-1 left-4 h-[8px] w-[26px] bg-orange-400 rounded z-[50]"></div>
     <div class="flex justify-between items-center text-gray-500 text-sm mb-3">
         <div class="flex items-center gap-1">
-            <span class='text-[#94A3B8] text-xs'>06 May, 2024</span>
-            <span class="flex items-center text-xs text-[#94A3B8]">
-                <span class="text-[#FEAF31] text-2xl mx-1">•</span>
+            <span class='text-blue-light text-xs'>06 May, 2024</span>
+            <span class="flex items-center text-xs text-blue-light">
+                <span class="text-marigold text-xl mx-1">•</span>
                 Program Manager Organization Name
             </span>
         </div>
-        <span class="bg-[#FEAF31] text-[#16006D] text-sm px-3 py-1 rounded-full">Invited</span>
+        <span class="bg-marigold text-deep-purple text-sm px-3 py-1 rounded-full">Invited</span>
     </div>
-    <h3 class="text-xl font-medium text-[#16006D]">Program Name</h3>
-    <p class="text-[#94A3B8] text-xs mt-2">
+    <h3 class="text-xl font-medium text-deep-purple">Program Name</h3>
+    <p class="text-blue-light text-xs mt-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
     </p>
     <div class="flex items-center justify-between w-full mt-4 text-gray-500 text-sm">
         <div class="flex items-center gap-4">
             <div>
-                <p class="text-[#94A3B8] text-xs">Delivery Type</p>
-                <p class="font-medium text-[#16006D] text-sm">Name of the Delivery Type</p>
+                <p class="text-blue-light text-xs">Delivery Type</p>
+                <p class="font-medium text-deep-purple text-sm">Name of the Delivery Type</p>
             </div>
             <div class="w-0.5 h-10 bg-gray-300"></div>
             <div class="flex items-center gap-4">
@@ -26,8 +26,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
                 <div>
-                    <p class="text-[#94A3B8] text-xs">Start Date</p>
-                    <p class="font-medium text-[#16006D] text-sm">12-Jul-2024</p>
+                    <p class="text-blue-light text-xs">Start Date</p>
+                    <p class="font-medium text-deep-purple text-sm">12-Jul-2024</p>
                 </div>
             </div>
             <div class="flex items-center gap-2">
@@ -35,8 +35,8 @@
                     <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
                 </svg>
                 <div>
-                    <p class="text-[#94A3B8] text-xs">End Date</p>
-                    <p class="font-medium text-[#16006D]">21-Dec-2024</p>
+                    <p class="text-blue-light text-xs">End Date</p>
+                    <p class="font-medium text-deep-purple">21-Dec-2024</p>
                 </div>
             </div>
         </div>
