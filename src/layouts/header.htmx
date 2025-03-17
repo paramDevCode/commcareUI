@@ -94,6 +94,12 @@
                 <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
                     <p class="text-[#16006D]">Settings</p> 
                 </li> 
+<div class="p-1 bg-indigo mt-1 rounded-3xl cursor-pointer text-center font-medium text-white w-1/2 flex items-center justify-center gap-2">
+    <button class="flex items-center justify-center gap-2">
+        Logout
+    </button>
+    <i class="fa-regular fa-arrow-right mt-1"></i>
+</div>
                 <div class="py-2"
                     hx-get="src/components/button-rounded.htmx" 
                     hx-vals='{"buttonText": "Submit"}'
