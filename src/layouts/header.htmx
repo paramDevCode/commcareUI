@@ -1,19 +1,17 @@
  <header class="flex justify-between custom-header fixed top-0 bg-gray-100 left-0 right-0 w-full items-center px-4 py-4">
     <!-- Left Section: Module Name -->
-    <h1 class="text-xl Extra large mb-4 text-deep-purple font-normal">Dashboard</h1>
+    <h1 class="text-lg mb-4 text-[#16006D] font-medium">Dashboard</h1>
 
     <!-- Right Section: Search, Notification, Profile Dropdown -->
     <div class="flex items-center space-x-11 right-side-pad">
         <!-- Search and Notification -->
         <div class='flex gap-5'>
             <button class="text-blue-900 focus:outline-none">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35"></path>
-                </svg>
+                <i class="fa-light fa-magnifying-glass"></i>
             </button>
 
             <!-- Notification Icon -->
-            <button class="text-blue-900 focus:outline-none relative">
+           <button class="text-blue-900 focus:outline-none relative">
                 <div class="absolute top-1 left-[12px] transform -translate-x-1/2 -translate-y-full">
                     <div class="w-1 h-1 bg-red-500 rounded-full"></div>
                 </div>
@@ -23,89 +21,144 @@
             </button>
         </div>
 
-        <!-- Profile Section -->
-        <div class="flex items-center gap-3">
+        <!-- User Profile -->
+        <div class="flex items-center gap-4">
             <!-- Dropdown Trigger: Organization Names & Icon -->
             <button onclick="toggleDropdown(event)" class="flex items-center gap-2 focus:outline-none">
                 <div class="text-left">
-                    <p class="text-sm font-medium text-deep-purple cursor-pointer">Organization Names</p>
-                    <p class="text-xs font-normal text-blue-light">Network Manager</p>
+                    <p class="text-sm font-[500] text-blue-900 cursor-pointer">Organization Names</p>
+                    <p class="text-xs text-gray-500">Network Manager</p>
                 </div>
 
                 <!-- Dropdown Toggle Icon -->
-                <svg id="dropdown-icon" class="w-4 h-3 text-sky transform transition-transform duration-300"
+                <svg id="dropdown-icon" class="w-4 h-3 text-[#8EA1FF] transform transition-transform duration-300"
                     fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
 
-            <!-- Avatar (Not Clickable) -->
-            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=JohnDoe"
-                class="w-10 h-10 rounded-full border border-gray-300 pointer-events-none" />
+            <!-- Dropdown Trigger: User Profile -->
+            <button onclick="userOptions(event)" class="focus:outline-none">
+                <!-- Avatar (Not Clickable) -->
+                <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=JohnDoe" 
+                    class="w-10 h-10 rounded-full border border-gray-300 pointer-events-none" /> 
+            </button/>
+
         </div>
 
-        <!-- Dropdown Menu -->
-<div id="dropdown-menu"
-    class="absolute  top-12 mt-2 w-[180px] bg-white shadow-lg rounded-lg transition-all duration-300 transform scale-95 opacity-0 invisible z-50">
-    <ul class="py-2">
-        <div class="px-3">
-            <li class="py-2 px-3 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-deep-purple text-sm font-normal">Meca Healthcare</p>
-                <p class="text-xs font-light text-blue-light">Program Manager</p>
-            </li>
-        </div>
-        <div class="px-4">
-            <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-deep-purple text-sm font-normal">Ecma Education</p>
-                <p class="text-xs font-light text-blue-light">Network Manager</p>
-            </li>
-        </div>
-        <div class="px-4">
-            <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-deep-purple text-sm font-normal">Cmea Kindheart</p>
-                <p class="text-xs font-light text-blue-light">Program Manager</p>
-            </li>
-        </div>
-        <div class="px-4">
-            <li class="px-3 py-2 hover:bg-gray-100 rounded cursor-pointer">
-                <p class="text-deep-purple text-sm font-normal">Acme Venture</p>
-                <p class="text-xs font-light text-blue-light">Network Manager</p>
-            </li>
-        </div>
-    </ul>
+        <!-- Organization Selector -->
+        <div id="dropdown-menu"
+            class="absolute  top-12 mt-2 w-56 bg-white shadow rounded-lg transition-all duration-300 transform scale-95 opacity-0 invisible z-50">
+            <ul class="p-2">
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                        <p class="text-[#16006D] text-sm font-medium">Meca Healthcare</p>
+                        <p class="text-xs text-[#94A3B8]">Program Manager</p>
+                </li>
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                        <p class="text-[#16006D] text-sm font-medium">Ecma Education</p>
+                        <p class="text-xs text-[#94A3B8]">Network Manager</p>
+                </li>
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                        <p class="text-[#16006D] text-sm font-medium">Cmea Kindheart</p>
+                        <p class="text-xs text-[#94A3B8]">Program Manager</p>
+                </li>
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                        <p class="text-[#16006D] text-sm font-medium">Acme Venture</p>
+                        <p class="text-xs text-[#94A3B8]">Network Manager</p>
+                </li>
+            </ul>
+        </div> 
+
+        <!-- User Profile Selector -->
+        <div id="user-profile"
+            class="absolute top-16 right-20 mt-2 w-56 bg-white shadow rounded-lg transition-all duration-300 transform scale-95 opacity-0 invisible z-50">
+            <ul class="flex flex-col gap-1 p-2">
+                <li class="p-2">
+                    <p class="text-[#16006D] font-medium">User Name</p> 
+                    <span class="text-gray-400 text-sm">Role</span>
+                </li>
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                    <p class="text-[#16006D]">Profile</p> 
+                </li>
+                <li class="p-2 hover:bg-gray-100 rounded cursor-pointer">
+                    <p class="text-[#16006D]">Settings</p> 
+                </li> 
+<div class="p-1 bg-indigo mt-1 rounded-3xl cursor-pointer text-center font-medium text-white w-1/2 flex items-center justify-center gap-2">
+    <button class="flex items-center justify-center gap-2">
+        Logout
+    </button>
+    <i class="fa-regular fa-arrow-right mt-1"></i>
 </div>
+                <div class="py-2"
+                    hx-get="src/components/button-rounded.htmx" 
+                    hx-vals='{"buttonText": "Submit"}'
+                    hx-trigger="load">
+                </div>
+            </ul>
+        </div> 
 
     </div>
 </header>
 
-<script>
+ <script>
+    // Organization Selection
+    const dropdown = document.getElementById("dropdown-menu");
+    const icon = document.getElementById("dropdown-icon");
+    const user_options = document.getElementById("user-profile"); // Add this line
+
     function toggleDropdown(event) {
         event.stopPropagation();
-        const dropdown = document.getElementById("dropdown-menu");
-        const icon = document.getElementById("dropdown-icon");
 
-        // Toggle visibility classes
         const isOpen = dropdown.classList.contains("opacity-100");
-
         if (isOpen) {
             dropdown.classList.remove("opacity-100", "scale-100", "visible");
             dropdown.classList.add("opacity-0", "scale-95", "invisible");
             icon.classList.remove("rotate-180");
         } else {
+            // Close user options if open
+            if (user_options.classList.contains("opacity-100")) {
+                user_options.classList.remove("opacity-100", "scale-100", "visible");
+                user_options.classList.add("opacity-0", "scale-95", "invisible");
+            }
+
             dropdown.classList.add("opacity-100", "scale-100", "visible");
             dropdown.classList.remove("opacity-0", "scale-95", "invisible");
             icon.classList.add("rotate-180");
         }
     }
 
-    document.addEventListener("click", function(event) {
-        const dropdown = document.getElementById("dropdown-menu");
-        const icon = document.getElementById("dropdown-icon");
+    // User Options
+    function userOptions(event) {
+        event.stopPropagation();
 
+        const isOpen = user_options.classList.contains("opacity-100");
+        if (isOpen) {
+            user_options.classList.remove("opacity-100", "scale-100", "visible");
+            user_options.classList.add("opacity-0", "scale-95", "invisible");
+        } else {
+            // Close dropdown if open
+            if (dropdown.classList.contains("opacity-100")) {
+                dropdown.classList.remove("opacity-100", "scale-100", "visible");
+                dropdown.classList.add("opacity-0", "scale-95", "invisible");
+                icon.classList.remove("rotate-180");
+            }
+
+            user_options.classList.add("opacity-100", "scale-100", "visible");
+            user_options.classList.remove("opacity-0", "scale-95", "invisible");
+        }
+    }
+
+    // Close on Outside Click
+    document.addEventListener("click", function(event) {
         if (!dropdown.contains(event.target)) {
             dropdown.classList.remove("opacity-100", "scale-100", "visible");
             dropdown.classList.add("opacity-0", "scale-95", "invisible");
             icon.classList.remove("rotate-180");
         }
+        if (!user_options.contains(event.target)) {
+            user_options.classList.remove("opacity-100", "scale-100", "visible");
+            user_options.classList.add("opacity-0", "scale-95", "invisible");
+        }
     });
 </script>
+
