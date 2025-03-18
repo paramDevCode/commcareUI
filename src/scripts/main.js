@@ -5,8 +5,9 @@
         const menuText = document.getElementById('menuText');
         const navItems = document.getElementById('navItems');
         const sidebarTexts = document.querySelectorAll('.sidebar-text');
-        const bottomItems = document.querySelectorAll('.pb-4 > div'); 
-
+        const bottomItems = document.querySelectorAll('.pb-4 > div');
+        
+         
         sidebar.classList.toggle('w-16');
         sidebar.classList.toggle('w-64');
 
