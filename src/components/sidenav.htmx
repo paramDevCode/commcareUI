@@ -1,4 +1,4 @@
-<div id="sidebar" class="w-16 bg-deep-purple z-9999 h-screen text-white flex flex-col top-0 left-0 fixed transition-all duration-300">
+<div id="sidebar" class="w-16 bg-deep-purple z-[9999] h-screen text-white flex flex-col top-0 left-0 fixed transition-all duration-300">
     <div class="relative flex flex-col items-start justify-center mb-20">
         <div class="fixed top-4 flex gap-2 items-center mb-1 pl-4">
             <img src="./public/Assets/logo.svg" class="w-7 h-7 rounded-full border-gray-300" />
