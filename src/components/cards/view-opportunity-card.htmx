@@ -1,4 +1,4 @@
-<div class="bg-white mt-2 shadow rounded-2xl p-4 grid grid-cols-1 md:grid-cols-[3fr,1fr] gap-4 items-start">
+<div class="bg-white mt-2 shadow rounded-2xl p-4 grid grid-cols-1 md:grid-cols-3fr-1fr gap-4 items-start">
     <!-- Left Column -->
     <div class="break-words max-w-full overflow-hidden">
 <p class="flex items-center text-xs text-blue-light "> 06 May, 2024 <span class="text-green-500">●</span> Program Manager Organization Name</p>
