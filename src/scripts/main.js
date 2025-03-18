@@ -28,7 +28,4 @@
         sidebarTexts.forEach(text => {
             text.classList.toggle('hidden');
         });
-
-
-
     }

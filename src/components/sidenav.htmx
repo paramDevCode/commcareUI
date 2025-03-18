@@ -5,7 +5,7 @@
             <span id="commcareText" class="hidden text-white text-xl font-normal text-center">CommCare</span>
              
         </div>
-        <button onclick="toggleSidebar()" class="focus:outline-none absolute top-12 w-screen mt-1">
+        <button onclick="toggleSidebar()" class="focus:outline-none absolute top-12 w-screen mt-5">
             <div class='flex items-center justify-start pl-6 w-screen'>
                 <i class="fa-regular fa-bars" id="menuIcon"></i>
                 <span id="menuText" class="ml-2 hidden">Menu</span>
@@ -13,7 +13,7 @@
         </button>
     </div>
 
-    <div class="flex-grow flex flex-col mt-5">
+    <div class="flex-grow flex flex-col mt-10">
         <nav class="flex flex-col transition-all duration-300 px-2" id="navItems">
             <div class="group relative p-3 hover:bg-sunset-light rounded-lg w-10 flex items-center">
                 <a href="#" class="flex items-center justify-start">
