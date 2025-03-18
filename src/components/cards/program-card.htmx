@@ -1,4 +1,4 @@
-<div class="bg-white shadow-md p-6 rounded-lg lg relative">
+<div class="bg-white shadow-sm p-6 rounded-lg lg relative">
     <div class="absolute -top-1 left-4 h-2 w-7 bg-orange-400 rounded z-50"></div>
     <div class="flex justify-between items-center text-gray-500 text-sm mb-3">
         <div class="flex items-center gap-1">
@@ -11,7 +11,7 @@
         <span class="bg-marigold text-deep-purple text-sm px-3 py-1 rounded-full">Invited</span>
     </div>
     <h3 class="text-xl font-medium text-deep-purple">Program Name</h3>
-    <p class="text-blue-light text-xs mt-2">
+    <p class="text-blue-light text-xs mt-2 w-1/2">
         Lorem ipsums dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
     </p>
     <div class="flex items-center justify-between w-full mt-4 text-gray-500 text-sm">
