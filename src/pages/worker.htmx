@@ -1,7 +1,7 @@
 <div class="space-y-4">
 <div hx-get="src/components/breadcrumb.htmx" hx-trigger="load"></div>
        <!-- Profile & Statistic Cards Container -->
-<div class="flex flex-wrap md:flex-nowrap items-center profile-bg rounded-2xl ">
+<div class="flex flex-wrap p-2 items-center profile-bg rounded-2xl ">
 
  <div hx-get="src/components/worker-profile.htmx" hx-trigger="load"></div>
 

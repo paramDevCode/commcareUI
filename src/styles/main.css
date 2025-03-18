@@ -77,8 +77,8 @@
 
   /* Profile Image */
 .profile-image {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
 } 
@@ -94,10 +94,10 @@
 /* Profile Border */
 .profile-border {
     position: absolute;
-    bottom: 4px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 32px;
+    width: 30px;
     height: 8px;
     background-color: red;
     border-radius: 0 0 50% 50%;
@@ -108,7 +108,7 @@
     position: absolute;
     left: 45%;
     transform: translateX(-50%);
-    bottom: -30px;
+    bottom: -20px;
     color: white;
     font-size: 1.25rem;  
 }
@@ -120,7 +120,7 @@
        
         border-radius: 1rem;margin-right: 30px;
         background-color:#3843D0;
-        color: white;position: relative;top: -14px;
+        color: white;position: relative;
     }
 
     .dashboard-card {
@@ -129,7 +129,7 @@
         justify-content: space-between;
         padding: 1rem;
         border-radius: 1rem;
-        background-color: #8ea1ff2b;margin: 10px;
+        background-color: #8ea1ff2b;
     }
 
     .dashboard-card-content {
