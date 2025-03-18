@@ -1,4 +1,4 @@
-<div class="bg-white shadow-sm p-6 rounded-lg relative flex flex-col gap-4">
+<div class="bg-white border border-grey-200 p-6 rounded-lg lg relative flex flex-col gap-4">
     <div class="absolute -top-1 left-4 h-2 w-7 bg-orange-400 rounded z-1"></div>
     <div class="flex justify-between items-center text-gray-400 text-sm">
         <div class="flex items-center gap-1">
@@ -43,32 +43,3 @@
         <div class="card-placeholder"></div>
     </div>
 </div>
- <script>
-    document.addEventListener('htmx:afterSwap', (event) => {
-        const insertedElement = event.detail.target;
-
-        if (insertedElement && insertedElement.id === "button-placeholder-1") { 
-            const button = insertedElement.querySelector("button[class*='bg-\\[\\#3843D0\\]']");
-            if (button) {
-               const targetContainerId = `view-opportunity-container-1`;
-                const targetContainer = document.querySelector(`#${targetContainerId}`);
-
-                if (targetContainer) {
-                    targetContainer.classList.add('hidden');
-                    button.setAttribute("hx-get", "src/components/cards/view-opportunity-card.htmx");
-                    button.setAttribute("hx-target", `#${targetContainerId} .card-placeholder`);
-
-                    button.addEventListener('click', () => {
-                        console.log('Button clicked, toggling visibility of container!');
-                        targetContainer.classList.toggle('hidden'); 
-                    });
-                }
-            } 
-        }
-    });
-</script>
-
-
-
-
-

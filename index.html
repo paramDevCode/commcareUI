@@ -14,22 +14,15 @@
     <script src="./src/scripts/tailwind.config.js"></script>   
 </head>
 
-<body class="bg-gray-100 flex justify-center overflow-x-hidden font-work-sans">
-    <div class="w-full lg:px-20 flex md:max-w-screen-2xl">
-
-        <!-- Sidebar -->
-        <div hx-get="src/components/sidenav.htmx" hx-trigger="load"></div>
-
-        <!-- Main Content -->
-        <main class="flex-1 mt-8 ">
-            <!-- Header -->
-            <div hx-get="src/layouts/header.htmx" hx-trigger="load"></div>
-
-            <!-- Content -->
-            <div hx-get="src/layouts/content.htmx" hx-trigger="load"></div>
-        </main>
-
-    </div>
+<body class="bg-gray-100 overflow-x-hidden font-work-sans flex justify-center pl-16">
+    <!-- Sidebar -->
+    <div hx-get="src/components/sidenav.htmx" hx-trigger="load"></div>
+    <div class="flex-1 md:max-w-screen-2xl px-4"> 
+        <!-- Header -->
+        <div hx-get="src/layouts/header.htmx" hx-trigger="load"></div>
+        <!-- Content -->
+        <div hx-get="src/layouts/content.htmx" hx-trigger="load"></div>  
+    </div> 
 </body>
 
 <script src="src/scripts/main.js"></script>
