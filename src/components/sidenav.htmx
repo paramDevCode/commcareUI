@@ -1,87 +1,76 @@
-<div id="sidebar" class="w-16 bg-deep-purple z-9999 h-screen text-white h-screen flex flex-col top-0 left-0 fixed justify-between transition-all duration-300">
-    <!-- Sidebar Top: CommCare Connect Logo & Toggle Button -->
-    <div class="relative flex items-center justify-between p-3">
-<div class="fixed top-4  flex items-center">
-            <img src="./public/Assets/logo.svg" class="w-8 h-8 rounded-full border-gray-300" />
-            <span id="commcareText" class="hidden text-white text-xl font-semibold">CommCare Connect</span>
+<div id="sidebar" class="w-16 bg-deep-purple z-9999 h-screen text-white flex flex-col top-0 left-0 fixed transition-all duration-300">
+    <div class="relative flex flex-col items-center justify-center mb-20 px-5">
+        <div class="fixed top-4 flex flex-col items-center mb-1">
+            <img src="./public/Assets/logo.svg" class="w-9 h-9 -m-1 rounded-full border-gray-300" />
+            <span id="commcareText" class="hidden text-white text-xl font-semibold text-center">CommCare Connect</span>
         </div>
-<button onclick="toggleSidebar()" class="p-3 focus:outline-none absolute top-12">
+        <button onclick="toggleSidebar()" class="focus:outline-none absolute top-12">
             <i class="fa-regular fa-bars" id="menuIcon"></i>
             <span id="menuText" class="ml-2 hidden">Menu</span>
         </button>
     </div>
 
-    <!-- Sidebar Icons -->
-    <div>
-        <!-- Sidebar Icons -->
-<div>
-    <nav class="flex flex-col transition-all duration-300 px-2" id="navItems">
-        <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
-                <i class="fa-light fa-table-cells-large"></i>
-                <span class="ml-4 sidebar-text hidden">Dashboard</span>
-            </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Dashboard</div>
-        </div>
-        <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
-                <i class="fa-light fa-table-columns"></i>
-                <span class="ml-4 sidebar-text hidden">Programs</span>
-            </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Programs</div>
-        </div>
-        <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
-                <i class="fa-light fa-sidebar"></i>
-                <span class="ml-4 sidebar-text hidden">Opportunities</span>
-            </a>
-             <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Opportunities</div>
-        </div>
-        <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
-                <i class="fa-light fa-chart-pie"></i>
-                <span class="ml-4 sidebar-text hidden">Analytics</span>
-            </a>
-            <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Analytics</div>
-        </div>
-        <div class="group relative">
-            <a href="#" class="flex items-center p-3  hover:bg-sunset-light rounded-lg w-full">
-                <i class="fa-light fa-buildings"></i>
-                <span class="ml-4 sidebar-text hidden">My Organization</span>
-            </a> 
+    <div class="flex-grow flex flex-col mt-5">
+        <nav class="flex flex-col transition-all duration-300 px-2" id="navItems">
+            <div class="group relative">
+                <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
+                    <i class="fa-light fa-table-cells-large"></i>
+                    <span class="ml-4 sidebar-text hidden">Dashboard</span>
+                </a>
+                <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-4 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Dashboard</div>
+            </div>
+            <div class="group relative">
+                <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
+                    <i class="fa-light fa-table-columns"></i>
+                    <span class="ml-4 sidebar-text hidden">Programs</span>
+                </a>
+                <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-4 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Programs</div>
+            </div>
+            <div class="group relative">
+                <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
+                    <i class="fa-light fa-sidebar"></i>
+                    <span class="ml-4 sidebar-text hidden">Opportunities</span>
+                </a>
+                <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-4 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Opportunities</div>
+            </div>
+            <div class="group relative">
+                <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
+                    <i class="fa-light fa-chart-pie"></i>
+                    <span class="ml-4 sidebar-text hidden">Analytics</span>
+                </a>
+                <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Analytics</div>
+            </div>
+            <div class="group relative">
+                <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
+                    <i class="fa-light fa-buildings"></i>
+                    <span class="ml-4 sidebar-text hidden">My Organization</span>
+                </a>
                 <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-                 <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Organization</div>
-
-        </div>
-    </nav>
-</div>
-
+                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Organization</div>
+            </div>
+        </nav>
     </div>
 
-    <!-- Sidebar Bottom: Help & Settings -->
-    <div class="mb-4 flex flex-col space-y-1 px-2">
+    <div class="pb-4 px-2">
         <div class="group relative">
-            <a href="#" class="flex items-center p-3  hover:bg-sunset-light rounded-lg">
+            <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
                 <i class="fa-light fa-circle-question"></i>
                 <span class="ml-4 sidebar-text hidden">Help & FAQ</span>
             </a>
-                
-                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>     
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Help</div>
+            <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Help</div>
         </div>
         <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg">
+            <a href="#" class="flex items-center w-10 p-3 hover:bg-sunset-light rounded-lg w-full">
                 <i class="fa-light fa-gear"></i>
                 <span class="ml-4 sidebar-text hidden">Settings</span>
             </a>
-                <div class="absolute top-1/4 right-0 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
-                <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Settings</div>
-            </div>
+            <div class="absolute top-1/4 right-1 h-1/2 w-1 bg-mango rounded-lg hidden group-hover:block"></div>
+            <div class="absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-white text-deep-purple text-sm py-1 px-2 rounded hidden group-hover:block whitespace-nowrap">Settings</div>
         </div>
     </div>
 </div>
- 
