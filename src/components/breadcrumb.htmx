@@ -1,0 +1,6 @@
+<div class="text-sm text-gray-600 flex items-center gap-2 p-4">
+    <a href="#" class="hover:text-blue-600">Program</a> &gt;
+    <a href="#" class="hover:text-blue-600">Opportunities</a> &gt;
+    <a href="#" class="hover:text-blue-600">Opportunity Name</a> &gt;
+    <span class="text-blue-600 font-semibold">Worker</span>
+</div>

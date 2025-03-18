@@ -1,0 +1,15 @@
+<div class="flex items-center gap-4 p-4 bg-blue-700 rounded-2xl text-white">
+    <img src="https://via.placeholder.com/60" alt="Worker Image" class="rounded-full w-16 h-16">
+    <div>
+        <div class="text-xl font-semibold">Worker Name</div>
+        <div class="text-sm">ZW69YOSSRSQ203HUNH1F</div>
+        <div class="text-sm flex items-center gap-2">
+            <span>📞 +25 472 643 0281</span>
+        </div>
+    </div>
+    <div class="ml-auto flex items-center gap-2">
+        <button class="text-white hover:text-gray-300">
+            🔗 Share
+        </button>
+    </div>
+</div>
