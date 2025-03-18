@@ -17,7 +17,7 @@
 <div>
     <nav class="flex flex-col transition-all duration-300 px-2" id="navItems">
         <div class="group relative">
-            <a href="#" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
+            <a href="#" hx-get="src/pages/worker.htmx" hx-target="#content-area" class="flex items-center p-3 hover:bg-sunset-light rounded-lg w-full">
                 <i class="fa-light fa-table-cells-large"></i>
                 <span class="ml-4 sidebar-text hidden">Dashboard</span>
             </a>

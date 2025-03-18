@@ -56,3 +56,86 @@
     margin-left: 64px;}
     .right-side-pad{margin-right: 52px;}
     .heading{margin-left: -8px;}
+    
+    .breadcrumb-link {
+        color: #94A3B8;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+    
+    .breadcrumb-link:hover {
+        color: #16006D; 
+    }
+    .breadcrumb-active {
+        color: #16006D;  
+        font-weight: 600;  
+    }
+    /* Profile Card Styles */
+.profile-card {
+    position: relative;
+}
+
+  /* Profile Image */
+.profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Profile Border */
+.profile-border {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: red;
+    border-radius: 0 0 50% 50%;
+}
+
+/* Share Icon */
+.share-icon {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    bottom: -40px;
+    color: white;
+    font-size: 1.25rem;  
+}
+.profile-bg{  background-color:#3843D0;}
+
+    .profile-card {
+        display: flex;
+        justify-content: space-between;
+       
+        border-radius: 1rem;margin-right: 30px;
+        background-color:#3843D0;
+        color: white;position: relative;top: -14px;
+    }
+
+    .dashboard-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: #8ea1ff2b;margin: 10px;
+    }
+
+    .dashboard-card-content {
+        font-size: 1.75rem;
+        color:white
+    }
+
+    .dashboard-card-icon {
+        font-size: 1.25rem;
+        align-self: start;
+    }
+
+    .profile-details {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
