@@ -1,22 +1,34 @@
-function toggleSidebar() {
-    const sidebar = document.getElementById("sidebar");
-    const menuIcon = document.getElementById("menuIcon");
-    const menuText = document.getElementById("menuText");
-    const commcareText = document.getElementById("commcareText");
-    const sidebarTexts = document.querySelectorAll(".sidebar-text");
+ function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const commcareText = document.getElementById('commcareText');
+        const menuIcon = document.getElementById('menuIcon');
+        const menuText = document.getElementById('menuText');
+        const navItems = document.getElementById('navItems');
+        const sidebarTexts = document.querySelectorAll('.sidebar-text');
+        const bottomItems = document.querySelectorAll('.pb-4 > div'); 
 
-    sidebar.classList.toggle("w-64");
-    sidebar.classList.toggle("expanded"); // Add or remove the 'expanded' class
+        sidebar.classList.toggle('w-16');
+        sidebar.classList.toggle('w-64');
 
-    if (sidebar.classList.contains("w-64")) {
-        menuIcon.className = "fa-regular fa-xmark";
-        menuText.classList.remove("hidden");
-        commcareText.classList.remove("hidden");
-        sidebarTexts.forEach(el => el.classList.remove("hidden"));
-    } else {
-        menuIcon.className = "fa-regular fa-bars";
-        menuText.classList.add("hidden");
-        commcareText.classList.add("hidden");
-        sidebarTexts.forEach(el => el.classList.add("hidden"));
+        commcareText.classList.toggle('hidden');
+        menuIcon.classList.toggle('fa-bars');
+        menuIcon.classList.toggle('fa-xmark');
+        menuText.classList.toggle('hidden');
+
+        navItems.querySelectorAll('div').forEach(navItem => {
+            navItem.classList.toggle('w-10');
+            navItem.classList.toggle('w-full');
+        });
+
+        bottomItems.forEach(item => {
+            item.classList.toggle('w-10');
+            item.classList.toggle('w-full');
+        });
+
+        sidebarTexts.forEach(text => {
+            text.classList.toggle('hidden');
+        });
+
+
+
     }
-}
