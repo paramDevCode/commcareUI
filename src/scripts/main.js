@@ -30,3 +30,9 @@
             text.classList.toggle('hidden');
         });
     }
+
+    
+function dashboardCartOpen() {
+    const dropdown = document.getElementById('dropdown-content');
+    dropdown.classList.toggle('hidden');
+}

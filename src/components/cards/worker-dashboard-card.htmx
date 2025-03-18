@@ -9,7 +9,7 @@
     <!-- Description with Dropdown Icon -->
     <div class="pt-4 text-sm flex items-center justify-between cursor-pointer">
         <span>Total Deliveries</span>
-        <i class="fa-solid fa-caret-down ml-2 cursor-pointer" onclick="toggleDropdown()"></i>
+        <i class="fa-solid fa-caret-down ml-2 cursor-pointer" onclick="dashboardCartOpen()"></i>
     </div>
     
     <!-- Dropdown Content -->
@@ -21,11 +21,4 @@
         </ul>
     </div>
 </div>
-
-<!-- JavaScript for Dropdown Toggle -->
-<script>
-    function toggleDropdown() {
-        const dropdown = document.getElementById('dropdown-content');
-        dropdown.classList.toggle('hidden');
-    }
-</script>
+ 

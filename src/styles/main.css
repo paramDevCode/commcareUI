@@ -81,16 +81,24 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+} 
+.profile-right-side p:first-of-type {
+    font-size: 11px;
+}
+
+.profile-right-side p:last-of-type {
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 /* Profile Border */
 .profile-border {
     position: absolute;
-    bottom: -5px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 40px;
-    height: 10px;
+    width: 32px;
+    height: 8px;
     background-color: red;
     border-radius: 0 0 50% 50%;
 }
@@ -98,9 +106,9 @@
 /* Share Icon */
 .share-icon {
     position: absolute;
-    left: 30%;
+    left: 45%;
     transform: translateX(-50%);
-    bottom: -40px;
+    bottom: -30px;
     color: white;
     font-size: 1.25rem;  
 }
