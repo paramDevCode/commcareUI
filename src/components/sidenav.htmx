@@ -20,7 +20,7 @@
     <div class="flex-grow flex flex-col mt-16">
         <nav class="flex flex-col transition-all duration-300 px-2" id="navItems">
             <div class="group relative p-3 hover:bg-sunset-light rounded-lg w-10 flex items-center">
-                <a href="#" class="flex items-center justify-start">
+                <a href="#"  hx-get="src/pages/worker.htmx" hx-target="#content-area" class="flex items-center justify-start">
                     <i class="fa-light fa-table-cells-large"></i>
                     <span class="ml-4 sidebar-text hidden text-xs">Dashboard</span>
                 </a>
