@@ -25,10 +25,7 @@ tailwind.config = {
               },
               width: { // added width section to config
                 '30p': '30%', // added custom width value
-              },
-              flex: {  
-                '70p': '70%',  
-              },
+              }, 
               zIndex: {  
                 '9999': '9999',  
               },
