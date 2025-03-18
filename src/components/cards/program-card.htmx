@@ -1,6 +1,6 @@
-<div class="bg-white shadow-sm p-6 rounded-lg lg relative">
-    <div class="absolute -top-1 left-4 h-2 w-7 bg-orange-400 rounded z-10"></div>
-    <div class="flex justify-between items-center text-gray-500 text-sm mb-3">
+<div class="bg-white shadow-sm p-6 rounded-lg relative flex flex-col gap-4">
+    <div class="absolute -top-1 left-4 h-2 w-7 bg-orange-400 rounded z-1"></div>
+    <div class="flex justify-between items-center text-gray-400 text-sm">
         <div class="flex items-center gap-1">
             <span class='text-blue-light text-xs'>06 May, 2024</span>
             <span class="flex items-center text-xs text-blue-light">
@@ -10,34 +10,28 @@
         </div>
         <span class="bg-marigold text-deep-purple text-sm px-3 py-1 rounded-full">Invited</span>
     </div>
-    <h3 class="text-xl font-medium text-deep-purple">Program Name</h3>
-    <p class="text-blue-light text-xs mt-2 w-1/2">
-        Lorem ipsums dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
-    </p>
-    <div class="flex items-center justify-between w-full mt-4 text-gray-500 text-sm">
+    <div class="program-details flex flex-col gap-2">
+        <h3 class="text-xl font-medium text-deep-purple">Program Name</h3>
+        <p class="text-gray-400 text-xs w-1/2">
+            Lorem ipsums dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor.
+        </p>
+    </div>
+    <div class="flex items-center justify-between w-full text-gray-400 text-sm">
         <div class="flex items-center gap-4">
             <div>
                 <p class="text-blue-light text-xs">Delivery Type</p>
                 <p class="font-medium text-deep-purple text-sm">Name of the Delivery Type</p>
             </div>
             <div class="w-0.5 h-10 bg-gray-300"></div>
-            <div class="flex items-center gap-4">
-                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                </svg>
-                <div>
-                    <p class="text-blue-light text-xs">Start Date</p>
-                    <p class="font-medium text-deep-purple text-sm">12-Jul-2024</p>
-                </div>
+            <i class="fa-light fa-calendar text-gray-400"></i>
+            <div> 
+                <p class="text-blue-light text-xs">Start Date</p>
+                <p class="font-medium text-deep-purple text-sm">12-Jul-2024</p>
             </div>
-            <div class="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill='#FC5F36' class='w-3 h-3' viewBox="0 0 448 512">
-                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
-                </svg>
-                <div>
-                    <p class="text-blue-light text-xs">End Date</p>
-                    <p class="font-medium text-deep-purple">21-Dec-2024</p>
-                </div>
+            <i class="fa-light fa-arrow-right text-mango"></i>
+            <div>
+                <p class="text-blue-light text-xs">End Date</p>
+                <p class="font-medium text-deep-purple">21-Dec-2024</p>
             </div>
         </div>
         <!-- Button Placeholder -->
@@ -61,7 +55,7 @@
 
                 if (targetContainer) {
                     targetContainer.classList.add('hidden');
-                    button.setAttribute("hx-get", "src/components/cards/view-opportunity-card.htmx");
+                    button.setAttribute("hx-get", "src/components/cards/opportunity-card.htmx");
                     button.setAttribute("hx-target", `#${targetContainerId} .card-placeholder`);
 
                     button.addEventListener('click', () => {
@@ -73,6 +67,7 @@
         }
     });
 </script>
+
 
 
 

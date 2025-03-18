@@ -22,10 +22,7 @@ tailwind.config = {
             },
             maxHeight: { //added max height config
               '150': '600px'
-            },
-            width: { // added width section to config
-              '30p': '30%', // added custom width value
-            } 
+            }
         },
     },
 }
