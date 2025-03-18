@@ -94,7 +94,7 @@
 /* Profile Border */
 .profile-border {
     position: absolute;
-    bottom: 10px;
+    bottom: 4px;
     left: 50%;
     transform: translateX(-50%);
     width: 32px;
