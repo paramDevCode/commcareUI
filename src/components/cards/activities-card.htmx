@@ -1,0 +1,26 @@
+<div class="p-6 shadow-sm bg-white rounded-lg">
+   <div class="flex items-center gap-5 mb-4">
+      <i class="fa-light fa-clock-rotate-left text-deep-purple"></i>
+      <p class="text-black-grey font-normal text-sm">Visits Pending Review</p>
+   </div>
+   <div class="flex justify-between items-center">
+      <div>
+         <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+         <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+      </div>
+      <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+         <p class="text-grey-900 text-xl">11</p>
+         <i class="fa-light fa-arrow-right"></i>
+      </div>
+   </div>
+   <div class="flex justify-between items-center mt-5">
+      <div>
+         <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+         <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+      </div>
+      <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+         <p class="text-grey-900 text-xl">11</p>
+         <i class="fa-light fa-arrow-right"></i>
+      </div>
+   </div>
+</div>

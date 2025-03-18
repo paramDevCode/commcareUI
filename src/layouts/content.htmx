@@ -1,110 +1,98 @@
-<div class="flex mt-15 flex-col lg:flex-row gap-5 min-h-screen"> 
-        <!-- Left Column -->
-        <div class="lg:flex-70p" >
-           <h2 class="mb-4 text-deep-purple font-medium text-sm">Programs</h2>
-           <div class="mt-4 bg-gray-100 rounded-lg">
-              <div class="flex flex-col gap-4">
-               <div hx-get="src/components/cards/program-card.htmx" hx-trigger="load"></div>  
-              </div>
-           </div>
-        </div>
-        <!-- Right Column -->
-        
-        <div class="lg:w-30p">
-           <div class="mb-4 text-deep-purple font-medium text-sm">Recent Activities</div>
-          <div class="max-h-150 bg-gray-100 rounded-lg overflow-y-hidden hover:overflow-y-auto">
-              <div class="flex flex-col gap-4">
-                 <div class="p-6 shadow bg-white rounded-lg">
-                    <div class="flex items-center gap-5 mb-4">
-                        <i class="fa-light fa-clock-rotate-left text-deep-purple"></i>
-                       <p class="text-black-grey font-normal text-sm">Visits Pending Review</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                 </div>
-                 <div class="p-6 shadow bg-white rounded-lg mt-1">
-                    <div class="flex items-center gap-5 mb-4">
-                        <i class="fa-light fa-hand-holding-dollar text-deep-purple text-xl"></i>
-                       <p class="text-black-grey font-normal text-sm">Pending Payment</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                 </div>
-                 <div class="p-6 shadow bg-white rounded-lg mt-1">
-                    <div class="flex items-center gap-5 mb-4">
-                       <i class="fa-light fa-user-slash text-deep-purple text-sm"></i>
-                       <p class="text-black-grey font-normal text-sm">Inactive Workers</p>
-                    </div>
-                    <div class="flex justify-between items-center">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                       <div>
-                          <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
-                          <p class="text-blue-light font-normal text-xs whitespace-nowrap">Network Manager Organization Name</p>
-                       </div>
-                       <div class="flex gap-5 border border-light px-4 py-1 rounded-3xl items-center">
-                          <p class="text-black-grey font-normal text-xl">11</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="text-indigo h-4 w-4">
-                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" fill="currentColor"/>
-                          </svg>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
+<div class="flex mt-15 flex-col lg:flex-row gap-5 min-h-screen">
+   <!-- Left Column -->
+   <div class="lg:flex-70p">
+      <h2 class="mb-4 text-deep-purple font-medium text-sm">Programs</h2>
+      <div class="mt-4 bg-gray-100 rounded-lg">
+         <div class="flex flex-col gap-4">
+            <div hx-get="src/components/cards/program-card.htmx" hx-trigger="load"></div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Right Column -->
+   <div class="lg:w-30p">
+      <div class="mb-4 text-deep-purple font-medium text-sm">Recent Activities</div>
+      <div class="max-h-150 bg-gray-100 rounded-lg overflow-y-hidden hover:overflow-y-auto">
+         <div class="flex flex-col gap-4"> 
+            <div class="p-6 shadow-sm bg-white rounded-lg">
+               <div class="flex items-center gap-5 mb-4">
+                  <i class="fa-light fa-clock-rotate-left text-deep-purple"></i>
+                  <p class="text-black-grey font-normal text-sm">Visits Pending Review</p>
+               </div>
+               <div class="flex justify-between items-center">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+               <div class="flex justify-between items-center mt-5">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="p-6 shadow-sm bg-white rounded-lg">
+               <div class="flex items-center gap-5 mb-4">
+                  <i class="fa-light fa-hand-holding-dollar text-deep-purple"></i>
+                  <p class="text-black-grey font-normal text-sm">Visits Pending Review</p>
+               </div>
+               <div class="flex justify-between items-center">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+               <div class="flex justify-between items-center mt-5">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="p-6 shadow-sm bg-white rounded-lg">
+               <div class="flex items-center gap-5 mb-4"> 
+                  <i class="fa-light fa-user-slash text-deep-purple"></i>
+                  <p class="text-black-grey font-normal text-sm">Visits Pending Review</p>
+               </div>
+               <div class="flex justify-between items-center">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+               <div class="flex justify-between items-center mt-5">
+                  <div>
+                     <p class="text-black-grey font-medium text-sm">Opportunity Name</p>
+                     <p class="text-blue-light font-normal text-xs">Network Manager Organization Name</p>
+                  </div>
+                  <div class="flex gap-5 border border-gray-200 text-deep-purple px-4 py-1 rounded-full items-center cursor-pointer">
+                     <p class="text-grey-900 text-xl">11</p>
+                     <i class="fa-light fa-arrow-right"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
