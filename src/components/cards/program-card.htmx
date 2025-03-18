@@ -55,7 +55,7 @@
 
                 if (targetContainer) {
                     targetContainer.classList.add('hidden');
-                    button.setAttribute("hx-get", "src/components/cards/view-opportunity-card.htmx");
+                    button.setAttribute("hx-get", "src/components/cards/opportunity-card.htmx");
                     button.setAttribute("hx-target", `#${targetContainerId} .card-placeholder`);
 
                     button.addEventListener('click', () => {
