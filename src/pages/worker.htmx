@@ -6,5 +6,8 @@
  <div hx-get="src/components/worker-profile.htmx" hx-trigger="load"></div>
 
   <div hx-get="src/components/cards/worker-dashboard-card.htmx" hx-trigger="load"></div>
+  
+
 
 </div>
+<div hx-get="src/components/table/custom-table.htmx" hx-trigger="load"></div>
