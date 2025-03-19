@@ -16,6 +16,11 @@ tailwind.config = {
                 'blue-light':'#94A3B8',
                 'sunset-light':'#FC5F3633',
                 'border-light':' #E2E8F0',
+                'blue-sky':' #F8FAFC',
+                'grey-sky':' #64748B',
+
+
+                
             },
             
               

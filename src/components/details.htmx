@@ -1,0 +1,86 @@
+<div class="max-w-md mx-auto  p-3 rounded-lg border bg-blue-sky">  
+  <p class='text-deep-purple font-normal text-sm'>Details<p>   
+</div>
+<div class="max-w-md mx-auto  p-3 rounded-xl border bg-white mt-2"> 
+ <div class='flex justify-between'> 
+  <p class='text-deep-purple font-medium text-sm'>Media<p>   
+<div class='flex gap-2'>
+   <i class="fa-light fa-arrow-left text-grey-sky"></i>
+  <i class="fa-light fa-arrow-right text-grey-sky"></i>
+</div>
+</div>
+<div class="values grid grid-cols-9 mt-4 gap-4 pb-5 border-b border-gray-200">
+    <img src="./public/Assets/checkup.jpg" class="object-cover rounded-2xl aspect-square col-span-3" alt="Checkup Image 1">
+    <img src="./public/Assets/checkup.jpg" class="object-cover rounded-2xl aspect-square col-span-3" alt="Checkup Image 2">
+    <img src="./public/Assets/checkup.jpg" class="object-cover rounded-2xl aspect-square col-span-3" alt="Checkup Image 3">
+     
+</div>
+<div class="pb-5 border-b border-gray-200">
+ <div class='mt-4'> 
+   <p class='text-deep-purple font-medium text-sm'>Verification flags<p>  
+  <div class='flex gap-10 mt-3'>
+    <div class=''>
+      <div class='text-blue-light text-sm'>Location</div>
+      <div class='text-deep-purple font-normal text-sm'>Less than 2m </div>
+    </div>
+     <div class=''>
+      <div class='text-blue-light text-sm'>Form Duration</div>
+      <div class='text-deep-purple font-normal text-sm'>4.6min</div>
+    </div>
+    <div class=''>
+      <div class='text-blue-light text-sm'>Photos</div>
+      <div class='text-deep-purple font-normal text-sm'>Yes</div>
+    </div>
+  </div>
+  </div>
+  <div class='mt-4'> 
+  <div class='flex gap-10 mt-3'>
+    <div class=''>
+      <div class='text-blue-light text-sm'>Location</div>
+      <div class='text-deep-purple font-normal text-sm'>Less than 2m </div>
+    </div>
+     <div class=''>
+      <div class='text-blue-light text-sm'>Form Duration</div>
+      <div class='text-deep-purple font-normal text-sm'>4.6min</div>
+    </div>
+    <div class=''>
+      <div class='text-blue-light text-sm'>Photos</div>
+      <div class='text-deep-purple font-normal text-sm'>Yes</div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class='mt-3'>
+    <p class='text-center mt-10 mt-10'>Graph</p>
+  </div>
+
+  <div class='mt-3'>
+    <p class='text-deep-purple font-medium text-sm'>Map</p>
+    <p class='text-center mt-4'>map image</p>
+  </div>
+<div class='flex gap-10 mt-5'>
+  <div class='flex gap-2 items-center'>
+    <i class="fa-solid fa-location-dot text-lg text-orange-600"></i>
+    <p class='text-sm'>Selected</p>
+  </div>
+   <div class='flex gap-2 items-center'>
+    <i class="fa-solid fa-location-dot text-lg text-blue-900"></i>
+    <p class='text-sm'>Nearest</p>
+  </div> <div class='flex gap-2 items-center'>
+    <i class="fa-solid fa-location-dot text-lg"></i>
+    <p class='text-sm'>Nearest to others</p>
+  </div>
+</div>
+</div>
+
+
+<div class="max-w-md mx-auto  p-2 rounded-lg border bg-blue-sky mt-2 flex justify-end gap-4">  
+ <button class="text-deep-purple px-8 py-2 rounded-lg border  transition">
+   Back
+</button>
+  <button class="bg-[#3843D0] text-white px-8 py-2 rounded-lg shadow-md hover:bg-blue-800 transition">
+    Accept   
+</button> 
+</div>
+
+
