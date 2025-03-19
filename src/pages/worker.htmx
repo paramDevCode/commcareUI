@@ -10,4 +10,6 @@
 
 
 </div>
-<div hx-get="src/components/table/custom-table.htmx" hx-trigger="load"></div>
+
+  <!-- Tabs -->
+<div hx-get="src/components/tabs/tabs.htmx" hx-trigger="load"></div>

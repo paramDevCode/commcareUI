@@ -1,0 +1,137 @@
+<!-- flagged.htmx -->
+<div class="table-container rounded-lg shadow mt-4">
+    <table class="custom-table w-full">
+        <thead>
+            <tr>
+                <th class="text-center"><i class="fa-regular fa-square-minus"></i></th>
+                <th>Time</th>
+                <th>Entity Name</th>
+                <th>Flags</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+             <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+             <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+             <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+             <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+             <tr>
+                <td class="text-center">1</td>
+                <td>14:56</td>
+                <td>Violla Maeya</td>
+                <td>
+                    <span class="badge">Location</span>
+                    <span class="badge">Form Duration</span>
+                    <span class="badge">+4</span>
+                </td>
+                <td class="text-right text-blue-800">
+                   <i class="fa-regular fa-flag"></i>
+                </td>
+            </tr>
+         </tbody>
+    </table>
+               <!-- Table Footer -->
+ <!-- Table Footer -->
+<div class="table-footer flex items-center justify-between">
+    <!-- Left Section (Icons) -->
+    <div class="flex items-center space-x-4">
+        <button>
+            <i class="fa-solid fa-rotate-left"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-rotate"></i>
+        </button>
+        <button class="bg-indigo-700 text-white p-2 rounded-lg">
+            <i class="fa-solid fa-map"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-table"></i>
+        </button>
+    </div>
+
+    <!-- Middle Section (Flags Dropdown) -->
+    <div>
+        <button class="border border-gray-300 rounded-full px-4 py-1">
+            Flags 9 <i class="fa-solid fa-chevron-down"></i>
+        </button>
+    </div>
+
+    <!-- Right Section (Pagination) -->
+    <div class="flex items-center space-x-2">
+        <div class="flex items-center border border-gray-300 rounded-full px-4 py-1">
+            <span>Rows per page</span>
+            <select>
+                <option>12</option>
+                <option>24</option>
+                <option>36</option>
+            </select>
+        </div>
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <span>10</span>
+        <span>of 12</span>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+</div>
+
+</div>
