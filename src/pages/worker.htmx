@@ -8,9 +8,8 @@
 
  <div class="grid grid-cols-10 gap-2">
   <div class="col-span-6">
-    <div class="border p-4">
-      Left (70%)
-    </div>
+      <!-- Tabs -->
+<div hx-get="src/components/tabs/tabs.htmx" hx-trigger="load"></div>
   </div>
   <div class="col-span-4 w-full">    
      <div hx-get="src/components/details.htmx" hx-trigger="load"></div>     
@@ -20,5 +19,3 @@
 
 </div>
 
-  <!-- Tabs -->
-<div hx-get="src/components/tabs/tabs.htmx" hx-trigger="load"></div>
