@@ -15,4 +15,10 @@
   <div class="col-span-4 w-full">    
      <div hx-get="src/components/details.htmx" hx-trigger="load"></div>     
   </div>
+  
+
+
 </div>
+
+  <!-- Tabs -->
+<div hx-get="src/components/tabs/tabs.htmx" hx-trigger="load"></div>

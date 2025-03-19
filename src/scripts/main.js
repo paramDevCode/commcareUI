@@ -90,3 +90,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+
+document.addEventListener('htmx:load', () => {
+    // Attach tab functionality for dynamically loaded components
+    document.querySelectorAll('.tab-item').forEach(tab => {
+        tab.addEventListener('click', () => {
+            document.querySelectorAll('.tab-item').forEach(item => item.classList.remove('active'));
+            tab.classList.add('active');
+
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.add('hidden'));
+            document.getElementById(tab.getAttribute('data-tab')).classList.remove('hidden');
+        });
+    });
+});
+
