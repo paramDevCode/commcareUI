@@ -10,114 +10,26 @@
                 <th></th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-             <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-             <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-             <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-             <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-             <tr>
-                <td class="text-center">1</td>
-                <td>14:56</td>
-                <td>Violla Maeya</td>
-                <td>
-                    <span class="badge">Location</span>
-                    <span class="badge">Form Duration</span>
-                    <span class="badge">+4</span>
-                </td>
-                <td class="text-right text-blue-800">
-                   <i class="fa-regular fa-flag"></i>
-                </td>
-            </tr>
-         </tbody>
+        <tbody id="table-body"></tbody>
     </table>
-               <!-- Table Footer -->
- <!-- Table Footer -->
-<div class="table-footer flex items-center justify-between">
-    <!-- Left Section (Icons) -->
-    <div class="flex items-center space-x-4">
-        <button>
-            <i class="fa-solid fa-rotate-left"></i>
-        </button>
-        <button>
-            <i class="fa-solid fa-rotate"></i>
-        </button>
-        <button class="bg-indigo-700 text-white p-2 rounded-lg">
-            <i class="fa-solid fa-map"></i>
-        </button>
-        <button>
-            <i class="fa-solid fa-table"></i>
-        </button>
-    </div>
+</div>
 
-    <!-- Middle Section (Flags Dropdown) -->
+<!-- Popup Container for displaying dynamic content -->
+<div id="popup-container"></div>
+
+<!-- Table Footer -->
+<div class="table-footer flex items-center justify-between mt-4">
+    <div class="flex items-center space-x-4">
+        <button><i class="fa-solid fa-rotate-left"></i></button>
+        <button><i class="fa-solid fa-rotate"></i></button>
+        <button class="bg-indigo-700 text-white p-2 rounded-lg"><i class="fa-solid fa-map"></i></button>
+        <button><i class="fa-solid fa-table"></i></button>
+    </div>
     <div>
         <button class="border border-gray-300 rounded-full px-4 py-1">
             Flags 9 <i class="fa-solid fa-chevron-down"></i>
         </button>
     </div>
-
-    <!-- Right Section (Pagination) -->
     <div class="flex items-center space-x-2">
         <div class="flex items-center border border-gray-300 rounded-full px-4 py-1">
             <span>Rows per page</span>
@@ -134,4 +46,76 @@
     </div>
 </div>
 
-</div>
+
+<!-- Script to Render Table Data -->
+<script>
+   document.addEventListener("htmx:afterSettle", () => {
+        const tableBody = document.getElementById("table-body");
+        const popupContainer = document.getElementById("popup-container");
+
+        if (tableBody) {
+            const data = [
+                { id: 1, time: "14:56", entityName: "Violla Maeya", flags: ["Location", "Form Duration", "+4"] },
+                { id: 2, time: "14:56", entityName: "Violla Maeya", flags: ["Location", "Form Duration", "+4"] },
+                { id: 3, time: "14:56", entityName: "Violla Maeya", flags: ["Location", "Form Duration", "+4"] },
+                { id: 4, time: "14:56", entityName: "Violla Maeya", flags: ["Location", "Form Duration", "+4"] }
+
+
+            ];
+
+            tableBody.innerHTML = ""; // Clear previous data
+
+            data.forEach(item => {
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                    <td class="text-center">${item.id}</td>
+                    <td>${item.time}</td>
+                    <td>${item.entityName}</td>
+                    <td>
+                        ${item.flags.map(flag => 
+                            flag.startsWith('+') 
+                            ? `<span class="badge clickable-badge cursor-pointer text-blue-500" hx-get="src/components/dropdown.htmx" hx-target="#popup-container">${flag}</span>`
+                            : `<span class="badge">${flag}</span>`
+                        ).join(" ")}
+                    </td>
+                    <td class="text-right text-blue-800">
+                        <i class="fa-regular fa-flag"></i>
+                    </td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+
+            // Trigger HTMX to process dynamically added elements
+            htmx.process(tableBody);
+        }
+
+        // Open dropdown on clicking + flag
+        document.querySelectorAll('.clickable-badge').forEach(badge => {
+            badge.addEventListener('click', function(event) {
+                event.stopPropagation(); // Prevent event from propagating to the document
+                const dropdown = document.querySelector(".dropdown-container");
+                dropdown.classList.toggle("hidden");  // Toggle visibility
+
+                // Position the dropdown near the + icon (badge)
+                const rect = event.target.getBoundingClientRect();
+                dropdown.style.top = `${rect.bottom + window.scrollY}px`;
+                dropdown.style.left = `${rect.left + window.scrollX}px`;
+            });
+        });
+
+        // Close dropdown on outside click
+        document.addEventListener("click", (event) => {
+            const isClickInsideDropdown = event.target.closest(".dropdown-container");
+            const isClickOnBadge = event.target.classList.contains("clickable-badge");
+
+            if (!isClickInsideDropdown && !isClickOnBadge) {
+                // Hide the dropdown when clicking outside
+                const dropdown = document.querySelector(".dropdown-container");
+                dropdown.classList.add("hidden");
+            }
+        });
+    });
+
+</script>

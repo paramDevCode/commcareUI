@@ -1,0 +1,12 @@
+<!-- dropdown.htmx -->
+<div class="dropdown-container hidden">
+    <div class="dropdown-menu bg-white shadow-lg rounded-lg p-4 mt-2 w-48 z-50">
+        <h2 class="text-gray-500 mb-2">All Flags</h2>
+        <ul>
+            <li class="text-blue-800 cursor-pointer">Location</li>
+            <li class="text-blue-800 cursor-pointer">Form Duration</li>
+            <li class="text-blue-800 cursor-pointer">Photos</li>
+            <li class="text-blue-800 cursor-pointer">Flag Name 1</li>
+        </ul>
+    </div>
+</div>

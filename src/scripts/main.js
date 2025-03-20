@@ -37,56 +37,56 @@ function dashboardCartOpen() {
     dropdown.classList.toggle('hidden');
 }
 
-function imageCarousel() {
-    const imagesContainer = document.querySelector('.values');
+// function imageCarousel() {
+//     const imagesContainer = document.querySelector('.values');
 
-    if (!imagesContainer) {
-        console.error("Error: .values container not found.");
-        return;  
-    }
+//     if (!imagesContainer) {
+//         console.error("Error: .values container not found.");
+//         return;  
+//     }
 
-    const images = Array.from(imagesContainer.querySelectorAll('img'));
-    const leftArrow = document.querySelector('.fa-arrow-left');
-    const rightArrow = document.querySelector('.fa-arrow-right');
+//     const images = Array.from(imagesContainer.querySelectorAll('img'));
+//     const leftArrow = document.querySelector('.fa-arrow-left');
+//     const rightArrow = document.querySelector('.fa-arrow-right');
 
-    if (!leftArrow || !rightArrow) {
-        console.error("Error: left or right arrow not found.");
-        return;
-    }
+//     if (!leftArrow || !rightArrow) {
+//         console.error("Error: left or right arrow not found.");
+//         return;
+//     }
 
-    let currentIndex = 0;
-    const totalImages = images.length;
-    const visibleImages = 3;
+//     let currentIndex = 0;
+//     const totalImages = images.length;
+//     const visibleImages = 3;
 
-    function updateCarousel() {
-        images.forEach((img, index) => {
-            if (index >= currentIndex && index < currentIndex + visibleImages) {
-                img.style.display = 'block';
-            } else {
-                img.style.display = 'none';
-            }
-        });
-    }
+//     function updateCarousel() {
+//         images.forEach((img, index) => {
+//             if (index >= currentIndex && index < currentIndex + visibleImages) {
+//                 img.style.display = 'block';
+//             } else {
+//                 img.style.display = 'none';
+//             }
+//         });
+//     }
 
-    function moveLeft() {
-        currentIndex = Math.max(0, currentIndex - 1);
-        updateCarousel();
-    }
+//     function moveLeft() {
+//         currentIndex = Math.max(0, currentIndex - 1);
+//         updateCarousel();
+//     }
 
-    function moveRight() {
-        currentIndex = Math.min(totalImages - visibleImages, currentIndex + 1);
-        updateCarousel();
-    }
+//     function moveRight() {
+//         currentIndex = Math.min(totalImages - visibleImages, currentIndex + 1);
+//         updateCarousel();
+//     }
 
-    leftArrow.addEventListener('click', moveLeft);
-    rightArrow.addEventListener('click', moveRight);
+//     leftArrow.addEventListener('click', moveLeft);
+//     rightArrow.addEventListener('click', moveRight);
 
-    updateCarousel();  
-}
+//     updateCarousel();  
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-    imageCarousel();
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     imageCarousel();
+// });
 
 
 
